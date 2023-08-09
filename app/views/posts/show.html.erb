@@ -1,0 +1,9 @@
+<h1><%= @post.title %></h1>
+
+<p><strong>Body:</strong></p>
+<p><%= @post.body %></p>
+
+<p><strong>Published:</strong> <%= @post.publish ? 'Yes' : 'No' %></p>
+
+<%= link_to 'Edit', edit_post_path(@post) %> |
+<%= link_to 'Back to All Posts', posts_path %>
