@@ -2,7 +2,7 @@ source "https://rubygems.org"
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby "3.0.5"
-gem 'devise'
+
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem "rails", "~> 7.0.6"
 
@@ -28,7 +28,7 @@ gem "stimulus-rails"
 gem "jbuilder"
 
 gem 'pg' 
-# Use Redis adapter to run Action Cabl e in production
+# Use Redis adapter to run Action Cable in production
 # gem "redis", "~> 4.0"
 
 # Use Kredis to get higher-level data types in Redis [https://github.com/rails/kredis]

@@ -1,5 +1,4 @@
 class PostsController < ApplicationController
-  
     before_action :set_post, only: %i[show edit update destroy publish unpublish]
   
     def index
