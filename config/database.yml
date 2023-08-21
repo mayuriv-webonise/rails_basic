@@ -9,5 +9,9 @@ default: &default
 development:
   <<: *default
   database: microblogdb
+  
+test:
+  <<: *default
+  database: microblogtestdb
 
 # Add similar configurations for other environments (e.g., test, production)
